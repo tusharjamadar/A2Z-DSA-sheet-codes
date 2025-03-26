@@ -1,0 +1,11 @@
+<----- Java Collection Framework ------->
+
+* Implementation of Data Structure:
+1. List : ArrayList, LinkedList, Vector, Stack
+2. Set : HashSet, TreeSet, LinkedHashSet
+3. Queue : LinkedList, ArrayDeque, PriorityQueue
+4. Deque : LinkedList, ArrayDeque
+5. Map : HashMap, TreeMap, LinkedHashMap
+
+* Coolections Class (Implementation of basic Algorithms):
+binarySearch(), sort(), max(), min(), reverse(), fill(),...
