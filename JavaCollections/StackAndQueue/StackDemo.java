@@ -1,7 +1,6 @@
 package JavaCollections.StackAndQueue;
 
-import java.util.ArrayDeque;
-import java.util.Stack;
+import java.util.*;
 
 public class StackDemo {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
 package JavaCollections.ArrayList;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 
 public class ArrayListTraversal {
     public static void main(String[] args) {
