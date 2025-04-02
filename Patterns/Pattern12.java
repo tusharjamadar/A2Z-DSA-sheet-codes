@@ -1,4 +1,3 @@
-package Patterns;
 
 public class Pattern12 {
     /*

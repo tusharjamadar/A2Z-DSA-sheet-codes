@@ -1,4 +1,3 @@
-package JavaCollections.StackAndQueue;
 
 import java.util.*;
 

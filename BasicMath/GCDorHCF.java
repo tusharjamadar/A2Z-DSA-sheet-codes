@@ -1,4 +1,3 @@
-package BasicMath;
 
 public class GCDorHCF {
     public static void main(String[] args) {

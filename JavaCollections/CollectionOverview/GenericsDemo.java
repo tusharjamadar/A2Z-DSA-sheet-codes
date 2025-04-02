@@ -1,4 +1,4 @@
-package JavaCollections.CollectionOverview;
+
 
 /*
  * Generics in Java

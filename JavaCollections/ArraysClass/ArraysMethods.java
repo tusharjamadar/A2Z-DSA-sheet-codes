@@ -1,4 +1,4 @@
-package JavaCollections.ArraysClass;
+
 
 import java.util.*;
 
