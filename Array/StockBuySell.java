@@ -17,13 +17,14 @@ public class StockBuySell {
             maxProfit = Math.max(maxProfit, cost);
 
             // update mini
-            mini = Math.min(mini, arr[i]);
+            mini = Math.min(maxProfit, cost);
+
         }
 
         return maxProfit;
     }
     public static void main(String[] args) {
-        int[] arr = new int[]{7,1,5,3,6,4};
+        int[] arr = new int[]{-2,1,-3,4,-1,2,1,-5,4};
 
         // find maximum profit if we buy stock on one day and sell it on another next days.
       
