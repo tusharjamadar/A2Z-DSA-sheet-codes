@@ -97,7 +97,7 @@ public class MajorityElementII {
     public static void main(String[] args) {
         int[] arr = new int[]{1,1,2,2,7,7,8,8,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3,9,3};
 
-        // All elements appers more than n/3 times
+        // All elements appears more than n/3 times
         System.out.println(majorityElement(arr));
     }
 }

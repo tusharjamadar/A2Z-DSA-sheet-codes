@@ -3,7 +3,7 @@ package Array;
 public class StockBuySell {
     private static int getMaxProfit(int[] arr){
 
-        // 1. We will keep track of minimum ele on left of current index and will substract that mini from current ele 
+        // 1. We will keep track of minimum ele on left of current index and will subtract that mini from current ele 
         // 2. if we get cost higher that maxProfit then update it 
         // 3. Also update the mini if we found minimum than mini
 
