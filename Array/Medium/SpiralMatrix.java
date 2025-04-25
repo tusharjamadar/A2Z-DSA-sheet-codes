@@ -57,7 +57,6 @@ public class SpiralMatrix {
             System.out.println(Arrays.toString(matrix[i]));
         }
 
-        // Rotate matrix by 90 degree clockwise
         List<Integer> ans = spiralOrder(matrix);
 
         System.out.println("Spiral Traversal");
