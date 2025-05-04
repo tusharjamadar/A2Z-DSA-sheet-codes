@@ -1,4 +1,4 @@
-package Array;
+package Array.Medium;
 
 public class MajorityElement {
     private static int getMajority(int[] arr){

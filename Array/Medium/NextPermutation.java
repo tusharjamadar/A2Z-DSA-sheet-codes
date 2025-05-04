@@ -1,3 +1,5 @@
+package Array.Medium;
+
 import java.util.Arrays;
 
 public class NextPermutation {
@@ -19,7 +21,7 @@ public class NextPermutation {
         }
 
         else {
-            // step 2 find next greater element and swap with ind2
+            // step 2 find next greater element of nums[ind1] and swap with ind2
             for (int i = n - 1; i >= 0; i--) {
                 if (nums[i] > nums[ind1]) {
                     ind2 = i;
