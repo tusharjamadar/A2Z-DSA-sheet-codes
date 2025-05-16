@@ -1,4 +1,4 @@
-package SubsequencesPattern;
+package Hard;
 
 import java.util.*;
 

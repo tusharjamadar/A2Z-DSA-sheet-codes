@@ -1,4 +1,4 @@
-package SubsequencesPattern;
+package Hard;
 /*
 Problem: 79. Word Search
 
