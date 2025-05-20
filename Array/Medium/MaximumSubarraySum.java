@@ -1,4 +1,4 @@
-package Array;
+package Array.Medium;
 
 public class MaximumSubarraySum {
     private static int getMaxSum(int[] arr){

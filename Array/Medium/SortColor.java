@@ -1,4 +1,4 @@
-package Array;
+package Array.Medium;
 
 import java.util.*;
 
@@ -45,7 +45,7 @@ public class SortColor {
 
         // sort 0... then 1.. then 2
         
-        // Dutch national flag algorith
+        // Dutch national flag algorithm
         sortColor(arr);
 
         System.out.println(Arrays.toString(arr));

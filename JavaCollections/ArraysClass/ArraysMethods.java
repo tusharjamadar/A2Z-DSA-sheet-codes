@@ -24,7 +24,7 @@ public class ArraysMethods {
 
         System.out.println(Arrays.equals(a, b));
 
-        System.out.println(Arrays.mismatch(a, b));
+        // System.out.println(Arrays.mismatch(a, b));
 
         int res = Arrays.compare(a, b);
 

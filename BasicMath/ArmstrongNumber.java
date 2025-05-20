@@ -1,36 +1,43 @@
+/*
+✅ Problem:
+Check whether a given number is an **Armstrong number**.
 
+A number is called an **Armstrong number** if the sum of its own digits each raised to the power of the number of digits equals the number itself.
+For example:
+153 = 1³ + 5³ + 3³ = 1 + 125 + 27 = 153 → Armstrong number
 
-import java.util.Scanner;
+🧠 Intuition:
+We decompose the number into its digits, raise each digit to the power equal to the number of digits, and sum them up.
+If the final sum is equal to the original number, then it's an Armstrong number.
+
+⚙️ Algorithm:
+1. Convert the number to a string to find the number of digits (`k`).
+2. Initialize a variable `sum` to 0.
+3. Extract each digit from the number using modulo and division.
+4. For each digit, raise it to the power `k` and add it to `sum`.
+5. After processing all digits, compare `sum` with the original number.
+
+⏱ Time Complexity:
+- O(k), where k is the number of digits in the number.
+
+📦 Space Complexity:
+- O(1)
+*/
 
 public class ArmstrongNumber {
-    // Function to check if a
-    // number is an Armstrong number
+
     public static boolean isArmstrong(int num) {
-        // Calculate the number of
-        // digits in the given number
-        int k = String.valueOf(num).length();
-        // Initialize the sum of digits
-        // raised to the power of k to 0
+        int k = String.valueOf(num).length(); // Count of digits
         int sum = 0;
-        // Copy the value of the input
-        // number to a temporary variable n
         int n = num;
-        // Iterate through each
-        // digit of the number
+
         while (n > 0) {
-            // Extract the last
-            // digit of the number
-            int ld = n % 10;
-            // Add the digit raised to
-            // the power of k to the sum
-            sum += Math.pow(ld, k);
-            // Remove the last digit
-            // from the number
-            n = n / 10;
+            int ld = n % 10; // Last digit
+            sum += Math.pow(ld, k); // Add digit^k to sum
+            n /= 10; // Remove last digit
         }
-        // Check if the sum of digits raised to
-        // the power of k equals the original number
-        return sum == num ? true : false;
+
+        return sum == num;
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Array;
+package Array.Hard;
 
 /*
 Problem: Maximum Product Subarray

@@ -1,5 +1,4 @@
-import java.util.Arrays;
-
+package Array.Medium;
 public class SetMatrixZeroes {
 
     public void setZeroes(int[][] matrix) {

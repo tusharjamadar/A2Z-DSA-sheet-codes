@@ -1,4 +1,4 @@
-package Array;
+package Array.Medium;
 
 public class StockBuySell {
     private static int getMaxProfit(int[] arr){
