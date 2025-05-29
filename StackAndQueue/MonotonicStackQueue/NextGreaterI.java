@@ -77,5 +77,9 @@ public class NextGreaterI {
         int[] nums1b = {2, 4};
         int[] nums2b = {1, 2, 3, 4};
         System.out.println("Output 2: " + Arrays.toString(sol.nextGreaterElement(nums1b, nums2b))); // [3, -1]
+
+        // int[] nums1c = {4, 8, 5, 2, 25};
+        // int[] nums2c = {4, 8, 5, 2, 25};
+        // System.out.println("Output 2: " + Arrays.toString(sol.nextGreaterElement(nums1c, nums2c))); // [3, -1]
     }
 }
