@@ -8,7 +8,7 @@ public class SetMatrixZeroes {
         // avoiding conflict using extra variable to track col 0
         int col0 = 1;
 
-        // Step 1: Tracking of 0 itselt in matrix
+        // Step 1: Tracking of 0 itself in matrix
         // Using first row for col track (1 ... n)
         // Using first col for row track (0 ... m)
         for (int i = 0; i < m; i++) {

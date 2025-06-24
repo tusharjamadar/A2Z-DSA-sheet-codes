@@ -7,7 +7,7 @@ public class MajorityElement {
 
         // Two steps in Moore's voting algorithm
         // 1. Find possible majority element
-        // 2. Varify it
+        // 2. Verify it
 
         // Step 1 -> find majority element
 
