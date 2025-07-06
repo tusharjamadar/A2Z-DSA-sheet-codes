@@ -1,0 +1,90 @@
+📘 What is a Priority Queue?
+A Priority Queue is a special type of queue in which each element has a priority, and elements with higher priority are dequeued before elements with lower priority.
+
+It is typically implemented using a Binary Heap to allow efficient insertion and removal operations.
+
+🧠 Why Use Binary Heap?
+Binary Heap provides the following benefits:
+
+Efficient insert → O(log n)
+
+Efficient deleteMin or deleteMax → O(log n)
+
+Peek at min/max → O(1)
+
+There are two types:
+
+Min-Heap: smallest element is at the root.
+
+Max-Heap: largest element is at the root.
+
+Binary Heaps are complete binary trees implemented using arrays for efficiency.
+
+🧱 Binary Heap Structure (Min-Heap)
+In a min-heap:
+
+parent(i) = (i-1)/2
+
+leftChild(i) = 2*i + 1
+
+rightChild(i) = 2*i + 2
+
+Example:
+
+makefile
+Copy
+Edit
+Array: [1, 3, 5, 7, 9, 6]
+Tree:
+        1
+      /   \
+     3     5
+    / \   /
+   7   9 6
+
+
+
+   📦 Java Built-in PriorityQueue (Min-Heap)
+Java’s PriorityQueue is a Min-Heap by default.
+
+java
+Copy
+Edit
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+pq.add(10);
+pq.add(5);
+pq.add(1);
+
+System.out.println(pq.peek()); // 1
+
+while (!pq.isEmpty()) {
+    System.out.print(pq.poll() + " "); // 1 5 10
+}
+👉 To make it a Max-Heap:
+
+PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+
+
+✅ Use Cases of Priority Queues
+Dijkstra’s algorithm (shortest path)
+
+A* search
+
+Huffman coding
+
+Task scheduling
+
+Merge k sorted lists
+
+Top K elements
+
+📌 Summary
+Priority Queue ensures access to highest/lowest priority element.
+
+Binary Heap is a complete binary tree and supports efficient insert/remove.
+
+Java provides PriorityQueue class (Min-Heap by default).
+
+You can implement custom heaps for full control.
+
