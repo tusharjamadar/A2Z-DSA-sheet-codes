@@ -31,9 +31,6 @@ rightChild(i) = 2*i + 2
 
 Example:
 
-makefile
-Copy
-Edit
 Array: [1, 3, 5, 7, 9, 6]
 Tree:
         1
@@ -47,9 +44,6 @@ Tree:
    📦 Java Built-in PriorityQueue (Min-Heap)
 Java’s PriorityQueue is a Min-Heap by default.
 
-java
-Copy
-Edit
 PriorityQueue<Integer> pq = new PriorityQueue<>();
 
 pq.add(10);
