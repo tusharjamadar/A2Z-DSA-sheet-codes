@@ -1,5 +1,7 @@
 package BinaryTree.Easy;
 
+import java.util.ArrayList;
+
 /*
  ✅ Problem Statement:
  Given a Binary Tree, perform the Boundary Traversal in this order:
@@ -31,7 +33,7 @@ package BinaryTree.Easy;
  O(H) – for recursion stack where H is tree height, plus O(N) for output list.
 */
 
-/*
+
 class Node {
     int data;
     Node left, right;
@@ -41,7 +43,7 @@ class Node {
         left = right = null;
     }
 }
-*/
+
 
 class BoundaryTraversal {
 
