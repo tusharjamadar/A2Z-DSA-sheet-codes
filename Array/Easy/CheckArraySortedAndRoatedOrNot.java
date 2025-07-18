@@ -1,8 +1,7 @@
-import java.util.*;
 
 public class CheckArraySortedAndRoatedOrNot {
 
-    // brute force approch -> TC: O(n2) & SC: O(n)
+    // brute force approch -> TC: O(n*n) & SC: O(n)
 
     public static boolean check1(int[] nums) {
         int n = nums.length;
